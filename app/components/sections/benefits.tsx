@@ -53,12 +53,12 @@ export default function Benefits() {
             <p className="font-serif text-xl sm:text-2xl text-text-primary">
               ¿Lista para empezar?
             </p>
-            <WhatsAppButton
-              message="Hola! Quiero mi evaluación personalizada."
-              variant="primary"
+            <a
+              href="#programa"
+              className="inline-block bg-beige text-bg-primary uppercase tracking-[0.1em] text-sm font-medium px-8 py-4 rounded-sm hover:bg-beige-dark transition-colors"
             >
               Quiero mi evaluación personalizada
-            </WhatsAppButton>
+            </a>
           </div>
         </Reveal>
       </div>

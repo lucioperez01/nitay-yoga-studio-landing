@@ -37,12 +37,12 @@ export default function Experience() {
             </p>
 
             <div className="pt-2 sm:pt-4">
-              <WhatsAppButton
-                message={experience.cta.whatsappMessage}
-                variant="outline"
+              <a
+                href="#programa"
+                className="inline-block border border-text-primary text-text-primary uppercase tracking-[0.1em] text-sm font-medium px-8 py-4 rounded-sm hover:bg-white/5 transition-colors"
               >
                 {experience.cta.label}
-              </WhatsAppButton>
+              </a>
             </div>
           </Reveal>
         </div>

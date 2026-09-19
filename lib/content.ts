@@ -54,8 +54,7 @@ export const WHATSAPP_NUMBER = "584242353589";
 export const navLinks: NavLink[] = [
   { label: "Inicio", href: "#inicio" },
   { label: "Experiencia", href: "#experiencia" },
-  { label: "Programa", href: "#programa" },
-  { label: "Sobre Nitay", href: "#sobre-nitay" },
+  { label: "Plan Personalizado", href: "#programa" },
   { label: "Contacto", href: "#contacto" },
 ];
 
@@ -73,10 +72,10 @@ export const hero: HeroData = {
   },
   stats: [
     { icon: "users", value: "+120", label: "alumnos activos" },
-    { icon: "levels", value: "", label: "Atención 100% personalizada" },
+    { icon: "levels", value: "Adaptado a ti", label: "Atención 100% personalizada" },
     {
       icon: "clipboard",
-      value: "",
+      value: "Gratis",
       label: "Primera evaluación personalizada",
     },
   ],
@@ -231,8 +230,8 @@ export const finalCTA = {
 
 export const contact: ContactInfo = {
   whatsapp: WHATSAPP_NUMBER,
-  location: "Buenos Aires, Argentina",
-  instagram: "@nitayyogaestudio",
+  location: "La Grita, Venezuela",
+  instagram: "@nitay.yoga",
 };
 
 export const footer: FooterData = {

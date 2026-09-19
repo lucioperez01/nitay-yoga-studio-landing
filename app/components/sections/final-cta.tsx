@@ -27,12 +27,12 @@ export default function FinalCTA() {
 
         <Reveal delay={0.3}>
           <div className="pt-2 sm:pt-4">
-            <WhatsAppButton
-              message={finalCTA.cta.whatsappMessage}
-              variant="large"
+            <a
+              href="#programa"
+              className="inline-block bg-beige text-bg-primary uppercase tracking-[0.1em] text-base sm:text-lg font-medium px-10 py-5 rounded-sm hover:bg-beige-dark transition-colors"
             >
               {finalCTA.cta.label}
-            </WhatsAppButton>
+            </a>
           </div>
         </Reveal>
       </div>

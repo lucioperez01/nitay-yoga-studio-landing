@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { OmSymbol, MenuIcon, CloseIcon } from './ui/icons';
-import WhatsAppButton from './ui/whatsapp-button';
 import { navLinks } from '../../lib/content';
 
 export default function Navbar() {
@@ -51,14 +50,17 @@ export default function Navbar() {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="text-xs font-medium uppercase tracking-[0.15em] text-text-secondary hover:text-text-primary transition-colors"
+                className="text-xs cursor-pointer font-medium uppercase tracking-[0.15em] text-text-secondary hover:text-text-primary transition-colors"
               >
                 {link.label}
               </button>
             ))}
-            <WhatsAppButton message="Hola! Quiero mi evaluación personalizada." variant="primary">
+            <button
+              onClick={() => handleNavClick('#programa')}
+              className="bg-beige text-bg-primary uppercase tracking-[0.1em] text-xs font-medium px-6 py-3 rounded-sm hover:bg-beige-dark transition-colors"
+            >
               Quiero mi evaluación
-            </WhatsAppButton>
+            </button>
           </div>
 
           <button
@@ -89,9 +91,12 @@ export default function Navbar() {
               {link.label}
             </button>
           ))}
-          <WhatsAppButton message="Hola! Quiero mi evaluación personalizada." variant="primary" className="mt-2">
+          <button
+            onClick={() => handleNavClick('#programa')}
+            className="bg-beige text-bg-primary uppercase tracking-[0.1em] text-sm font-medium px-8 py-4 rounded-sm hover:bg-beige-dark transition-colors mt-2"
+          >
             Quiero mi evaluación
-          </WhatsAppButton>
+          </button>
         </div>
       )}
     </>
