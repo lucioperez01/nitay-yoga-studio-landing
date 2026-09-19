@@ -1,13 +1,12 @@
 import Image from 'next/image';
 import { hero } from '../../../lib/content';
-import WhatsAppButton from '../ui/whatsapp-button';
 import Reveal from '../ui/reveal';
-import { LotusIcon, UserIcon, StarIcon, CheckIcon } from '../ui/icons';
+import { LotusIcon, UserIcon, TargetIcon, CheckIcon } from '../ui/icons';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   users: UserIcon,
   levels: LotusIcon,
-  clipboard: StarIcon,
+  target: TargetIcon,
 };
 
 export default function Hero() {
@@ -51,19 +50,13 @@ export default function Hero() {
           </Reveal>
 
           <Reveal variant="fade-up" delay={0.4}>
-            <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 pt-1 sm:pt-2">
-              <WhatsAppButton
-                message={hero.primaryCTA.whatsappMessage}
-                variant="primary"
+            <div className="pt-1 sm:pt-2">
+              <a
+                href="#programa"
+                className="inline-block bg-beige text-bg-primary uppercase tracking-[0.1em] text-sm font-medium px-8 py-4 rounded-sm hover:bg-beige-dark transition-colors"
               >
                 {hero.primaryCTA.label}
-              </WhatsAppButton>
-              <WhatsAppButton
-                href={hero.secondaryCTA.href}
-                variant="outline"
-              >
-                {hero.secondaryCTA.label}
-              </WhatsAppButton>
+              </a>
             </div>
           </Reveal>
 

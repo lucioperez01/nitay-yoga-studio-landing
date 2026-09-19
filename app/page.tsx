@@ -1,7 +1,6 @@
 import Hero from './components/sections/hero';
 import ProblemSolution from './components/sections/problem-solution';
 import Benefits from './components/sections/benefits';
-import Experience from './components/sections/experience';
 import FirstClass from './components/sections/first-class';
 import Testimonials from './components/sections/testimonials';
 import TransformationProgram from './components/sections/transformation-program';
@@ -15,7 +14,6 @@ export default function Home() {
       <Hero />
       <ProblemSolution />
       <Benefits />
-      <Experience />
       <FirstClass />
       <Testimonials />
       <TransformationProgram />

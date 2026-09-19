@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { OmSymbol, MenuIcon, CloseIcon } from './ui/icons';
+import Image from 'next/image';
+import { MenuIcon, CloseIcon } from './ui/icons';
 import { navLinks } from '../../lib/content';
 
 export default function Navbar() {
@@ -39,8 +40,13 @@ export default function Navbar() {
             onClick={() => handleNavClick('#inicio')}
             className="flex items-center gap-3 text-text-primary"
           >
-            <div className="w-10 h-10 rounded-full border border-accent flex items-center justify-center">
-              <OmSymbol className="w-6 h-6 text-accent" />
+            <div className="relative w-10 h-10 rounded-full overflow-hidden border border-accent">
+              <Image
+                src="/logo.jpeg"
+                alt="Nitay Yoga Estudio"
+                fill
+                className="object-cover"
+              />
             </div>
             <span className="font-serif text-lg tracking-wide hidden sm:inline">Nitay Yoga Estudio</span>
           </button>

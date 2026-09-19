@@ -7,7 +7,6 @@ export interface HeroData {
   headline: string;
   subtitle: string;
   primaryCTA: { label: string; whatsappMessage: string };
-  secondaryCTA: { label: string; href: string };
   stats: Array<{ icon: string; value: string; label: string }>;
 }
 
@@ -53,7 +52,6 @@ export const WHATSAPP_NUMBER = "584242353589";
 
 export const navLinks: NavLink[] = [
   { label: "Inicio", href: "#inicio" },
-  { label: "Experiencia", href: "#experiencia" },
   { label: "Plan Personalizado", href: "#programa" },
   { label: "Contacto", href: "#contacto" },
 ];
@@ -63,20 +61,16 @@ export const hero: HeroData = {
   subtitle:
     "Yoga, respiración y meditación para reconectar con tu cuerpo y tu mente.",
   primaryCTA: {
-    label: "Reservar mi clase",
-    whatsappMessage: "Hola! Quiero reservar mi primera clase de yoga.",
-  },
-  secondaryCTA: {
-    label: "Conoce la experiencia",
-    href: "#experiencia",
+    label: "Quiero mi evaluación personalizada",
+    whatsappMessage: "Hola! Quiero mi evaluación personalizada.",
   },
   stats: [
     { icon: "users", value: "+120", label: "alumnos activos" },
     { icon: "levels", value: "Adaptado a ti", label: "Atención 100% personalizada" },
     {
-      icon: "clipboard",
-      value: "Gratis",
-      label: "Primera evaluación personalizada",
+      icon: "target",
+      value: "3 meses",
+      label: "Resultados sostenibles",
     },
   ],
 };
