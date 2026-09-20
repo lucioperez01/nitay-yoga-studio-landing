@@ -156,7 +156,7 @@ export const transformationProgram = {
     "Adaptación a tu ritmo",
   ],
   formTitle: "Evaluación personalizada",
-  formSubtitle: "Completá el formulario y Nitay analizará tu caso para diseñar tu programa.",
+  formSubtitle: "Completa el formulario y Nitay analizará tu caso para diseñar tu programa.",
   cta: "Quiero mi evaluación personalizada",
   whatsappAlternative: "O escríbenos directamente por WhatsApp",
 };
@@ -166,8 +166,8 @@ export const howItWorks = {
   headline: "¿Cómo funciona?",
   steps: [
     {
-      title: "Completás el formulario",
-      description: "Contanos sobre vos, tus objetivos y disponibilidad.",
+      title: "Completas el formulario",
+      description: "Cuéntanos sobre ti, tus objetivos y disponibilidad.",
     },
     {
       title: "Analizamos tu caso",
@@ -175,7 +175,7 @@ export const howItWorks = {
     },
     {
       title: "Te contactamos",
-      description: "Recibís una propuesta adaptada a tu caso por WhatsApp.",
+      description: "Recibes una propuesta adaptada a tu caso por WhatsApp.",
     },
   ],
 };
@@ -187,19 +187,19 @@ export const faqs = [
   },
   {
     question: "¿Cómo es la evaluación inicial?",
-    answer: "Completás un formulario con información sobre vos, tus objetivos y disponibilidad. Nitay analiza tu caso y te contacta con una propuesta personalizada.",
+    answer: "Completas un formulario con información sobre ti, tus objetivos y disponibilidad. Nitay analiza tu caso y te contacta con una propuesta personalizada.",
   },
   {
     question: "¿Cuánto dura el programa?",
-    answer: "El programa base es de 3 meses, tiempo suficiente para crear hábitos sostenibles y ver resultados reales. Después podés continuar si querés.",
+    answer: "El programa base es de 3 meses, tiempo suficiente para crear hábitos sostenibles y ver resultados reales. Después puedes continuar si quieres.",
   },
   {
     question: "¿Es para principiantes?",
-    answer: "Sí. El programa se adapta a tu nivel, sea que nunca hayas hecho yoga o que ya tengas experiencia. La práctica se diseña para vos.",
+    answer: "Sí. El programa se adapta a tu nivel, sea que nunca hayas hecho yoga o que ya tengas experiencia. La práctica se diseña para ti.",
   },
   {
     question: "¿Qué pasa si tengo una lesión?",
-    answer: "Contanos en el formulario. Nitay adapta la práctica para trabajar alrededor de cualquier lesión o condición. Tu seguridad es primero.",
+    answer: "Cuéntanos en el formulario. Nitay adapta la práctica para trabajar alrededor de cualquier lesión o condición. Tu seguridad es primero.",
   },
   {
     question: "¿Cómo es el seguimiento?",
@@ -215,7 +215,7 @@ export const formFields = {
 
 export const finalCTA = {
   headline: "Tu cuerpo ya te está pidiendo un cambio.",
-  subtitle: "Completá tu evaluación personalizada y empieza tu transformación.",
+  subtitle: "Completa tu evaluación personalizada y empieza tu transformación.",
   cta: {
     label: "Quiero mi evaluación personalizada",
     whatsappMessage: "Hola! Quiero mi evaluación personalizada.",

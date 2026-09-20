@@ -1,5 +1,5 @@
 import { contact, footer } from '../../lib/content';
-import { OmSymbol, InstagramIcon, WhatsAppIcon } from './ui/icons';
+import { OmSymbol, InstagramIcon, WhatsAppIcon, GitHubIcon, TikTokIcon } from './ui/icons';
 
 export default function Footer() {
   return (
@@ -22,15 +22,35 @@ export default function Footer() {
             <h3 className="text-xs font-medium uppercase tracking-[0.15em] text-text-muted">
               Síguenos
             </h3>
-            <a
-              href={`https://instagram.com/${contact.instagram.replace('@', '')}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
-            >
-              <InstagramIcon className="w-5 h-5" />
-              <span className="text-sm">{contact.instagram}</span>
-            </a>
+            <div className="flex flex-col gap-2">
+              <a
+                href={`https://instagram.com/${contact.instagram.replace('@', '')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
+              >
+                <InstagramIcon className="w-5 h-5" />
+                <span className="text-sm">{contact.instagram}</span>
+              </a>
+              <a
+                href="https://github.com/lucioperez01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
+              >
+                <GitHubIcon className="w-5 h-5" />
+                <span className="text-sm">GitHub</span>
+              </a>
+              <a
+                href="https://tiktok.com/@lutec.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
+              >
+                <TikTokIcon className="w-5 h-5" />
+                <span className="text-sm">@lutec.dev</span>
+              </a>
+            </div>
           </div>
 
           <div className="space-y-3">
@@ -54,10 +74,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-border text-center">
-          <p className="text-text-muted text-sm">
-            {footer.copyright}
-          </p>
+        <div className="mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-border">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p className="text-text-muted text-sm">
+              {footer.copyright}
+            </p>
+            <p className="text-text-muted text-sm">
+              Web diseñada y desarrollada por{' '}
+              <a
+                href="https://lutec.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-text-secondary hover:text-accent transition-colors"
+              >
+                Lutec.dev
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

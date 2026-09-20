@@ -213,7 +213,7 @@ export default function LeadForm() {
           Tu solicitud fue enviada. Nitay revisará tu caso y te contactará pronto.
         </p>
         <p className="text-text-muted text-sm">
-          Si no se abrió WhatsApp, podés escribirnos directamente al +{WHATSAPP_NUMBER}
+          Si no se abrió WhatsApp, puedes escribirnos directamente al +{WHATSAPP_NUMBER}
         </p>
       </div>
     );
@@ -398,7 +398,7 @@ export default function LeadForm() {
           id="lesiones"
           value={formData.lesiones}
           onChange={e => setFormData({...formData, lesiones: e.target.value})}
-          placeholder="Contanos si tenés alguna lesión o condición que debamos saber (opcional)"
+          placeholder="Cuéntanos si tienes alguna lesión o condición que debamos saber (opcional)"
           rows={3}
           maxLength={500}
           className="w-full bg-bg-primary border border-border rounded-sm px-4 py-3 text-text-primary placeholder-text-muted focus:border-accent focus:outline-none transition-colors resize-none"
