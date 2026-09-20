@@ -41,6 +41,15 @@ export const metadata: Metadata = {
   authors: [{ name: "Nitay Yoga Estudio" }],
   creator: "Nitay Yoga Estudio",
   publisher: "Nitay Yoga Estudio",
+  icons: {
+    icon: [
+      { url: "/logo.jpeg", type: "image/jpeg" },
+    ],
+    shortcut: ["/logo.jpeg"],
+    apple: [
+      { url: "/logo.jpeg", type: "image/jpeg" },
+    ],
+  },
   openGraph: {
     title: "Nitay Yoga Estudio",
     description:
