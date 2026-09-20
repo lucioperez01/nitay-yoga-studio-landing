@@ -5,7 +5,7 @@ const steps = [
   {
     icon: DocumentIcon,
     title: 'Completas el formulario',
-    description: 'Contanos sobre vos, tus objetivos y disponibilidad.',
+    description: 'Cuéntanos sobre ti, tus objetivos y disponibilidad.',
   },
   {
     icon: SearchIcon,
@@ -15,7 +15,7 @@ const steps = [
   {
     icon: MessageIcon,
     title: 'Te contactamos',
-    description: 'Recibís una propuesta adaptada a tu caso por WhatsApp.',
+    description: 'Recibes una propuesta adaptada a tu caso por WhatsApp.',
   },
 ];
 

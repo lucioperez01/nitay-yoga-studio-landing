@@ -11,7 +11,7 @@ export default function FAQ() {
               PREGUNTAS FRECUENTES
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-text-primary tracking-tight">
-              ¿Tenés dudas?
+              ¿Tienes dudas?
             </h2>
             <div className="w-10 sm:w-12 h-px bg-accent mx-auto" />
           </div>
