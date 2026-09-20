@@ -4,7 +4,7 @@ import { DocumentIcon, SearchIcon, MessageIcon } from '../ui/icons';
 const steps = [
   {
     icon: DocumentIcon,
-    title: 'Completás el formulario',
+    title: 'Completas el formulario',
     description: 'Contanos sobre vos, tus objetivos y disponibilidad.',
   },
   {

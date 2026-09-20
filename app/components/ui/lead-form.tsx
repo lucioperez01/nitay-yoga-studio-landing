@@ -86,7 +86,7 @@ export default function LeadForm() {
 
       case 'disponibilidad':
         if (formData.disponibilidad.length === 0) {
-          newErrors.disponibilidad = 'Seleccioná al menos una opción';
+          newErrors.disponibilidad = 'Selecciona al menos una opción';
         } else {
           delete newErrors.disponibilidad;
         }
@@ -137,7 +137,7 @@ export default function LeadForm() {
     }
 
     if (formData.disponibilidad.length === 0) {
-      newErrors.disponibilidad = 'Seleccioná al menos una opción';
+      newErrors.disponibilidad = 'Selecciona al menos una opción';
     }
 
     if (formData.website) {
@@ -225,7 +225,7 @@ export default function LeadForm() {
         Evaluación personalizada
       </h3>
       <p className="text-text-secondary text-sm">
-        Completá el formulario y Nitay analizará tu caso para diseñar tu programa.
+        Completa el formulario y Nitay analizará tu caso para diseñar tu programa.
       </p>
 
       <input
@@ -336,7 +336,7 @@ export default function LeadForm() {
             errors.objetivo ? 'border-red-400 focus:border-red-400' : 'border-border focus:border-accent'
           }`}
         >
-          <option value="">Seleccioná tu objetivo</option>
+          <option value="">Selecciona tu objetivo</option>
           {formFields.objectives.map(opt => (
             <option key={opt} value={opt}>{opt}</option>
           ))}
@@ -359,7 +359,7 @@ export default function LeadForm() {
             errors.experiencia ? 'border-red-400 focus:border-red-400' : 'border-border focus:border-accent'
           }`}
         >
-          <option value="">Seleccioná tu experiencia</option>
+          <option value="">Selecciona tu experiencia</option>
           {formFields.experience.map(opt => (
             <option key={opt} value={opt}>{opt}</option>
           ))}
@@ -419,7 +419,7 @@ export default function LeadForm() {
       {status === 'error' && (
         <div className="text-center space-y-3 pt-4">
           <p className="text-red-400 text-sm">
-            Hubo un error al enviar. Podés escribirnos directamente por WhatsApp.
+            Hubo un error al enviar. Puedes escribirnos directamente por WhatsApp.
           </p>
           <a
             href={'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent('Hola! Quiero mi evaluación personalizada.')}
